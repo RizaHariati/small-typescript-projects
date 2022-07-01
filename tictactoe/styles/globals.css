@@ -1,0 +1,30 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+.board-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.btn {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+}
+.square-text {
+  font-size: 30px;
+  font-weight: bold;
+}
